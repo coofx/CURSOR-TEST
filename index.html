@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Voltiga</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <div class="page-wrapper">
+    <div class="main-card">
+      <header class="header">
+        <a href="/" class="logo">
+          <span class="logo-icon">
+            <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <circle cx="20" cy="20" r="20" fill="#000"/>
+              <text x="20" y="26" text-anchor="middle" fill="#fff" font-family="Montserrat, sans-serif" font-weight="700" font-size="14">HK</text>
+            </svg>
+          </span>
+          <span class="logo-text">HomeKey Realty</span>
+        </a>
+        <nav class="nav">
+          <a href="#apartments">Apartments</a>
+          <a href="#services">Our services</a>
+          <a href="#houses">Houses</a>
+          <a href="#commercial">Commercial</a>
+          <a href="#about">About us</a>
+        </nav>
+        <button type="button" class="btn btn-header">Contact us</button>
+      </header>
+
+      <section class="hero" aria-label="Hero">
+        <div class="hero-bg" style="background-image: url('images/MAIN_HERO.png');"></div>
+        <h1 class="hero-headline">Find Your Perfect<br>Place to Call Home</h1>
+        <div class="search-bar">
+          <div class="search-field dropdown" data-dropdown>
+            <div class="search-field-trigger">
+              <span class="search-icon" aria-hidden="true">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/>
+                  <circle cx="12" cy="10" r="3"/>
+                </svg>
+              </span>
+              <div class="search-label-value">
+                <span class="search-label">Location</span>
+                <span class="search-value">San Jose, CA</span>
+              </div>
+              <span class="dropdown-arrow" aria-hidden="true">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="18 15 12 9 6 15"/></svg>
+              </span>
+            </div>
+            <div class="dropdown-list" role="listbox">
+              <div class="dropdown-option" data-value="San Jose, CA">San Jose, CA</div>
+              <div class="dropdown-option" data-value="Los Angeles, CA">Los Angeles, CA</div>
+              <div class="dropdown-option" data-value="San Francisco, CA">San Francisco, CA</div>
+              <div class="dropdown-option" data-value="San Diego, CA">San Diego, CA</div>
+              <div class="dropdown-option" data-value="Oakland, CA">Oakland, CA</div>
+            </div>
+          </div>
+          <div class="search-field dropdown" data-dropdown>
+            <div class="search-field-trigger">
+              <span class="search-icon" aria-hidden="true">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <line x1="12" y1="1" x2="12" y2="23"/>
+                  <path d="M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"/>
+                </svg>
+              </span>
+              <div class="search-label-value">
+                <span class="search-label">Price</span>
+                <span class="search-value">$1,000-$2,000</span>
+              </div>
+              <span class="dropdown-arrow" aria-hidden="true">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="18 15 12 9 6 15"/></svg>
+              </span>
+            </div>
+            <div class="dropdown-list" role="listbox">
+              <div class="dropdown-option" data-value="$500-$1,000">$500-$1,000</div>
+              <div class="dropdown-option" data-value="$1,000-$2,000">$1,000-$2,000</div>
+              <div class="dropdown-option" data-value="$2,000-$3,000">$2,000-$3,000</div>
+              <div class="dropdown-option" data-value="$3,000-$5,000">$3,000-$5,000</div>
+              <div class="dropdown-option" data-value="$5,000+">$5,000+</div>
+            </div>
+          </div>
+          <div class="search-field dropdown" data-dropdown>
+            <div class="search-field-trigger">
+              <span class="search-icon" aria-hidden="true">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/>
+                  <polyline points="9 22 9 12 15 12 15 22"/>
+                </svg>
+              </span>
+              <div class="search-label-value">
+                <span class="search-label">Property type</span>
+                <span class="search-value">Apartment</span>
+              </div>
+              <span class="dropdown-arrow" aria-hidden="true">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="18 15 12 9 6 15"/></svg>
+              </span>
+            </div>
+            <div class="dropdown-list" role="listbox">
+              <div class="dropdown-option" data-value="Apartment">Apartment</div>
+              <div class="dropdown-option" data-value="House">House</div>
+              <div class="dropdown-option" data-value="Condo">Condo</div>
+              <div class="dropdown-option" data-value="Studio">Studio</div>
+              <div class="dropdown-option" data-value="Townhouse">Townhouse</div>
+            </div>
+          </div>
+          <div class="search-field dropdown" data-dropdown>
+            <div class="search-field-trigger">
+              <span class="search-icon" aria-hidden="true">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <circle cx="12" cy="12" r="10"/>
+                  <circle cx="12" cy="12" r="6"/>
+                  <circle cx="12" cy="12" r="2"/>
+                </svg>
+              </span>
+              <div class="search-label-value">
+                <span class="search-label">Bedrooms</span>
+                <span class="search-value">1-3</span>
+              </div>
+              <span class="dropdown-arrow" aria-hidden="true">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="18 15 12 9 6 15"/></svg>
+              </span>
+            </div>
+            <div class="dropdown-list" role="listbox">
+              <div class="dropdown-option" data-value="1">1</div>
+              <div class="dropdown-option" data-value="2">2</div>
+              <div class="dropdown-option" data-value="3">3</div>
+              <div class="dropdown-option" data-value="1-3">1-3</div>
+              <div class="dropdown-option" data-value="4+">4+</div>
+            </div>
+          </div>
+          <button type="button" class="btn btn-search">Search</button>
+        </div>
+      </section>
+    </div>
+  </div>
+  <script src="js/main.js"></script>
+</body>
+</html>
